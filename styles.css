@@ -1,0 +1,61 @@
+.animatable-samples {
+	width: 400px;
+}
+.animatable-samples li {
+	background-color: dimgrey;
+}
+
+/* background color sample */
+.animatable-samples li.background-color-sample {
+	transition: background-color 2s linear;
+
+}
+.animatable-samples li.background-color-sample:hover {
+	background-color: dodgerblue;
+}
+
+/* width sample*/
+.animatable-samples li.width-sample {
+	transition: width 2s linear;
+	width: 400px;
+ }
+.animatable-samples li.width-sample:hover {
+	width: 0;
+}
+
+/* left sample */
+.animatable-samples li.left-sample {
+	transition: left 2s linear;
+	position: relative;
+	left: 0;
+ }
+.animatable-samples li.left-sample:hover {
+	left: 100px;
+}
+
+/* margin sample */
+.animatable-samples li.margin-sample {
+	transition: margin 2s linear;
+	margin: 0;
+ }
+.animatable-samples li.margin-sample:hover {
+	margin: 10px;
+}
+
+/* border sample */
+.animatable-samples li.border-sample {
+	transition: border 2s linear;
+	border: 0 solid black;
+ }
+.animatable-samples li.border-sample:hover {
+	border: 5px solid darksalmon;
+}
+
+/* opacity sample */
+.animatable-samples li.opacity-sample {
+	transition: opacity 2s linear;
+	opacity: 1;
+ }
+.animatable-samples li.opacity-sample:hover {
+	opacity: 0;
+}
